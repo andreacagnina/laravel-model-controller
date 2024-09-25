@@ -1,11 +1,11 @@
 @extends('layouts.app')
 
-@section('content')
-    <div class="container">
+@section('home')
+    <div class="container mt-3 text-center">
         <div class="row">
             <div class="col-12">
                 <div class="content">
-                    <h1>ciao</h1>
+                    <h1>{{ $greeting }}</h1>
                 </div>
             </div>
         </div>

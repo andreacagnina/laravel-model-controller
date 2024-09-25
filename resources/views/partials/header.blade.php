@@ -7,7 +7,7 @@
                         <a href="{{ route('homepage') }}">Home</a>
                     </li>
                     <li>
-                        <a href="#">Altro</a>
+                        <a href="{{ Route('movies') }}">Movies</a>
                     </li>
                 </ul>
             </div>

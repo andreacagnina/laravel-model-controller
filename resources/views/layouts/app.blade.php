@@ -14,6 +14,7 @@
         @include('partials.header')
     </header>
     <main>
+        @yield('home')
         @yield('content')
     </main>
 </body>

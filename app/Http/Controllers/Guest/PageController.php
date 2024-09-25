@@ -9,6 +9,7 @@ class PageController extends Controller
 {
     public function index()
     {
-        return view('home');
+        $greeting = 'Benvenuto/a!';
+        return view('home', compact('greeting'));
     }
 }
