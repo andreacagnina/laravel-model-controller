@@ -1,0 +1,19 @@
+header {
+    background-color: black;
+
+    ul {
+        li {
+            display: flex;
+            align-items: center;
+            padding: 30px 15px;
+            height: 100%;
+
+            a {
+                color: white;
+                text-transform: uppercase;
+            }
+        }
+
+    }
+
+}

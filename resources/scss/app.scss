@@ -1,1 +1,17 @@
 @import '~bootstrap/scss/bootstrap';
+@import './_partials/_header';
+
+
+body {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}

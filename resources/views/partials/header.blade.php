@@ -2,21 +2,13 @@
     <div class="row">
         <div class="col-12">
             <div>
-                {{-- <img src="{{ vite::asset('resources/img/') }}" alt="Logo"> --}}
-                <ul class="list-unstyled d-flex">
+                <ul class="list-unstyled d-flex justify-content-center">
                     <li>
-                        <a class="text-decoration-none" href="{{ route('homepage') }}">Home</a>
+                        <a href="{{ route('homepage') }}">Home</a>
                     </li>
                     <li>
-                        <a class="text-decoration-none" href=""></a>
+                        <a href="#">Altro</a>
                     </li>
-                    <li>
-                        <a class="text-decoration-none" href=""></a>
-                    </li>
-                    <li>
-                        <a class="text-decoration-none" href=""></a>
-                    </li>
-
                 </ul>
             </div>
         </div>
