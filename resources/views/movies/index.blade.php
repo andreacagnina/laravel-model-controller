@@ -11,7 +11,7 @@
                     <div class="col-3 g-4">
                         <div class="card" style="width: 18rem;">
                             <div class="card-header">
-                                <span><strong>Titolo:</strong></span>{{ $movie->id }} {{ $movie->title }}
+                                <span><strong>Titolo:</strong></span> {{ $movie->title }}
                             </div>
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item"><span><strong>Titolo
@@ -24,7 +24,6 @@
                                 <li class="list-group-item"><span><strong>Voto:</strong></span> {{ $movie->vote }}</li>
                                 <li class="list-group-item"><span><strong>Clicca e scopri di più sul film:</strong></span>
                                     <a href="{{ Route('movies_show_more', ['id' => $movie->id]) }}">🔍</a>
-
                                 </li>
                             </ul>
                         </div>
