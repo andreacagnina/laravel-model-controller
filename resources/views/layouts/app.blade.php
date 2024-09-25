@@ -16,6 +16,7 @@
     <main>
         @yield('home')
         @yield('content')
+        @yield('movie_details')
     </main>
 </body>
 

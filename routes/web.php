@@ -20,3 +20,4 @@ use App\Http\Controllers\Guest\MovieController as MovieController;
 
 Route::get('/', [PageController::class, 'index'])->name('homepage');
 Route::get('/movies', [MovieController::class, 'index'])->name('movies');
+Route::get('/movies/{id}', [MovieController::class, 'show'])->name('movies_show_more');
